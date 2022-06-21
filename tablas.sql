@@ -42,7 +42,7 @@ CREATE TABLE Vehiculos (
 ALTER TABLE Vehiculos ADD CONSTRAINTS vehiculos_PK  PRIMARY KEY (PATENTE);
 
 CREATE TABLE Cargas_afiliados ( 
-    Rut                 NUMERIC(50)NOT NULL,
+    Rut                 NUMERIC(11)NOT NULL,
     Dv                  CHAR(1)NOT NULL,
     Primer_nombre       VARCHAR2(25)NOT NULL,
     Segundo_nombre      VARCHAR2(25),
